@@ -6,11 +6,13 @@ body {
 }
 h2 {
   background-color: #bd8e8e;
+  color: black;
   padding: 0.625em 0.4em;
   border-radius: 1em 0.7em;
 }
 p {
   background-color: #cde6e7;
+  color: black;
   padding: 0.625em 0.4em;
   border-radius: 1em 0.7em;
 }
