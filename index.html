@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a href="#what-is-oop-">What is OOP ?</a>
+        <ul>
+          <li><a href="#an-introduction">An Introduction</a></li>
+          <li><a href="#oop---in-application">OOP - in application</a></li>
+          <li><a href="#building-blocks-of-oop">Building Blocks of OOP</a></li>
+          <li>
+            <a href="#the-four-principles-of-oop">The Four Principles of OOP</a>
+          </li>
+          <li>
+            <a href="#more-on-objects-and-classes"
+              >More on Objects and Classes</a
+            >
+            <ul>
+              <li>
+                <a href="#terms-related-to-classes-and-objects"
+                  >Terms related to Classes and Objects</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <h1 id="what-is-oop-">What is OOP ?</h1>
+    <h2 id="an-introduction">An Introduction</h2>
+    <p>
+      Object Oriented programming is a programming paradigm that relies on the
+      concept of classes and objects.
+    </p>
+    <p>
+      It is used to structure a software program into simple, reusable pieces of
+      code blueprints (usually called classes), which are used to create
+      individual instances of that chosen blueprint.
+    </p>
+    <p>
+      A class is an abstract blueprint used to create more specific, concrete
+      objects. Classes often represent broad categories that share attributes.
+      These classes define what attributes an instance of this type will have,
+      but not the values of those attributes for a specific object.
+    </p>
+    <p>
+      Classes can also contain functions, called <strong>methods</strong>,
+      available only to objects of that type. These functions are defined within
+      the class and perform some action helpful to that specific type of object.
+    </p>
+    <p>
+      Class templates are used as a blueprint to create individual objects.
+      These represent specific examples of the abstract class. Each object can
+      have unique values to the properties defined in the class.
+    </p>
+    <h2 id="oop-in-application">OOP - in application</h2>
+    <p>
+      Grouping related information together to form a class structure makes the
+      code shorter and easier to maintain.
+    </p>
+    <ul>
+      <li>Create a parent class for the main category.</li>
+      <li>Create child classes for the different sub categories.</li>
+      <li>Add unique attributes and behaviors.</li>
+      <li>
+        Create objects from the child classes to represent the concrete ideas.
+      </li>
+    </ul>
+    <h2 id="building-blocks-of-oop">Building Blocks of OOP</h2>
+    <p><em>The fundamental building blocks are</em></p>
+    <ul>
+      <li>
+        <h3 id="-classes-"><strong>Classes.</strong></h3>
+        <ul>
+          <li>
+            Classes are essentially user defined data types. Classes are where
+            we create a blueprint for the structure of methods and attributes.
+            Individual objects are instantiated or created from this blueprint.
+          </li>
+          <li>
+            Classes contain fields for attributes and methods for behaviors.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h3 id="-objects-"><strong>Objects.</strong></h3>
+        <ul>
+          <li>
+            An object can be a variable, a data structure, a function, or a
+            method and as such is a value in memory referenced by an identifier.
+          </li>
+          <li>Objects can correspond to things to in the real world.</li>
+          <li>Objects are instances of classes created with specific data.</li>
+          <li>Objects have states and behaviors.</li>
+          <li>
+            An object stores its state in fields and exposes its behaviors
+            through methods.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h3 id="-methods-"><strong>Methods.</strong></h3>
+        <ul>
+          <li>
+            Methods represent behaviors, they also perform actions. The
+            method&#39;s code is defined in the class definition.
+          </li>
+          <li>
+            Methods operate on an object&#39;s internal state and serve as a
+            primary mechanism for object to object communication.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h3 id="-attributes-"><strong>Attributes.</strong></h3>
+        <ul>
+          <li>
+            Attributes are the stored information, and they are defined in teh
+            class template. When objects are instantiated these individual
+            objects have unique data stored in the attribute field.
+          </li>
+          <li>
+            The state of the object is defined in the object&#39;s attribute
+            fields.
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <h2 id="the-four-principles-of-oop">The Four Principles of OOP</h2>
+    <p>The four pillars of object oriented programming are</p>
+    <ul>
+      <li>
+        <h3 id="-inheritance-"><strong>Inheritance</strong>.</h3>
+        <ul>
+          <li>
+            <p>
+              Inheritance allows classes to inherit features from other classes.
+            </p>
+          </li>
+          <li>
+            <p>
+              Parent classes extend attributes and behaviors to child classes.
+            </p>
+          </li>
+          <li>
+            <p>
+              Basic attributes are defined in a parent class and child classes
+              are created to extend the functionality of the parent class and
+              also adding additional attributes and behaviors.
+            </p>
+          </li>
+          <li>
+            <p>
+              The benefits are, a program can have a generic parent class and a
+              then more specific child class. This simplifies the process,
+              instead of recreating the structure multiple times, child classes
+              gain access to the functionalities within their parent class.
+            </p>
+          </li>
+          <li>
+            <p>
+              In js inheritance is also known as prototyping. A prototype object
+              acts as a template for another object to inherit the properties
+              and behaviors from. There can be multiple prototype object
+              templates,creating a prototype chain.
+            </p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h3 id="-encapsulation-"><strong>Encapsulation</strong>.</h3>
+        <ul>
+          <li>
+            Encapsulation means containing all the information inside an object,
+            and only exposing what is deemed necessary. When an object is
+            instantiated from the class, the data and methods are encapsulated
+            in that object.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h3 id="-abstraction-"><strong>Abstraction</strong>.</h3>
+        <ul>
+          <li>
+            Abstraction means that the user can only interact with selected
+            attributes and methods of an object, it uses simplified high level
+            tools to access a complex object.
+            <ul>
+              <li>Using simple things to represent complexity.</li>
+              <li>Hiding complex details from the user.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h3 id="-polymorphism-"><strong>Polymorphism</strong>.</h3>
+        <p>-</p>
+      </li>
+    </ul>
+    <h2 id="more-on-objects-and-classes">More on Objects and Classes</h2>
+    <ul>
+      <li>
+        A field (also called data member or member variable) is a particular
+        piece of data encapsulated within a class or object. In the case of a
+        regular field (also called instance variable), for each instance of the
+        object there is an instance variable.
+      </li>
+      <li>
+        Fields are abstracted by properties, which allow them to be read and
+        written as if they were fields, but these can be translated to getter
+        and setter method calls.
+      </li>
+      <li>
+        A feature of objects is that an object&#39;s own procedures can access
+        and often modify the data fields of itself (objects have a notion of
+        this or self). In OOP, computer programs are designed by making them out
+        of objects that interact with one another.
+      </li>
+      <li>
+        Class-based OOP languages have objects that are instances of classes,
+        which also determines their types.
+      </li>
+      <li>
+        Objects in js generally start out as <em>non-specific groups</em> of
+        data and functionality.
+      </li>
+    </ul>
+    <h3 id="terms-related-to-classes-and-objects">
+      Terms related to Classes and Objects
+    </h3>
+    <ul>
+      <li>
+        <strong>Class variables</strong>
+        <ul>
+          <li>belong to the class as whole and there is only one of each.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Instance variables</strong>
+        <ul>
+          <li>
+            data that belongs to individual classes and every object has a copy.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Member variables</strong>
+        <ul>
+          <li>
+            refers to both the class and instance variables that are defined by
+            the class.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Class Methods</strong>
+        <ul>
+          <li>
+            belong to the class as a whole and have access access only to class
+            variables and inputs from procedure calls.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Instance Methods</strong>
+        <ul>
+          <li>
+            these belong the individual objects and have access to instance
+            variables for the specific object they are called on.
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
