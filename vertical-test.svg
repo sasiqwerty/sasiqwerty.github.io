@@ -1,0 +1,41 @@
+<svg width="564" height="354" viewBox="0 0 564 354" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="564" height="354" fill="#E5E5E5"/>
+<g id="container">
+<g id="noun">
+<rect id="Rectangle 2" x="179" y="113" width="124.783" height="70" rx="35" fill="#E37D3D"/>
+<text id="NOUN" fill="black" xml:space="preserve" style="white-space: pre" font-family="Lato" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="204.717" y="157.288">NOUN</tspan></text>
+</g>
+<g id="adverb">
+<rect id="Rectangle 4" x="313" y="113" width="138" height="70" rx="35" fill="#DFCF05"/>
+<text id="ADVERB" fill="black" xml:space="preserve" style="white-space: pre" font-family="Lato" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="334.448" y="157.288">ADVERB</tspan></text>
+</g>
+<g id="pronoun">
+<rect id="Rectangle 3" x="173" y="198" width="158" height="70" rx="35" fill="#18B872"/>
+<text id="PRONOUN" fill="black" xml:space="preserve" style="white-space: pre" font-family="Lato" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="191.128" y="241.902">PRONOUN</tspan></text>
+</g>
+<g id="verb">
+<rect id="Rectangle 6" x="39" y="198" width="125" height="70" rx="35" fill="#43A0A6"/>
+<text id="VERB" fill="black" xml:space="preserve" style="white-space: pre" font-family="Lato" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="70.6563" y="242.288">VERB</tspan></text>
+</g>
+<g id="adjective">
+<rect id="Rectangle 7" x="14" y="113" width="156" height="70" rx="35" fill="#82A102"/>
+<text id="ADJECTIVE" fill="black" xml:space="preserve" style="white-space: pre" font-family="Lato" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="28.5972" y="157.288">ADJECTIVE</tspan></text>
+</g>
+<g id="preposition">
+<rect id="Rectangle 5" x="35.8862" y="284" width="181.437" height="70" rx="35" fill="#79959A"/>
+<text id="PREPOSITION" fill="black" xml:space="preserve" style="white-space: pre" font-family="Lato" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="46.9922" y="328.288">PREPOSITION</tspan></text>
+</g>
+<g id="conjuction">
+<rect id="Rectangle 8" x="244.801" y="284" width="205.398" height="70" rx="35" fill="#E4979B"/>
+<text id="CONJUNCTION" fill="black" xml:space="preserve" style="white-space: pre" font-family="Lato" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="259.879" y="328.288">CONJUNCTION</tspan></text>
+</g>
+<g id="interjection">
+<rect id="Rectangle 9" x="342.605" y="198" width="193.077" height="70" rx="35" fill="#D14581"/>
+<text id="INTERJECTION" fill="black" xml:space="preserve" style="white-space: pre" font-family="Lato" font-size="24" font-weight="bold" letter-spacing="0em"><tspan x="354.383" y="242.288">INTERJECTION</tspan></text>
+</g>
+<g id="POS">
+<rect id="Rectangle 5_2" x="20.2634" width="337.725" height="98" rx="49" fill="#75C5D5"/>
+<text id="PARTS OF SPEECH" fill="black" xml:space="preserve" style="white-space: pre" font-family="Lato" font-size="32" font-weight="bold" letter-spacing="0em"><tspan x="46.4531" y="61.384">PARTS OF  SPEECH</tspan></text>
+</g>
+</g>
+</svg>
