@@ -1,7 +1,12 @@
 body {
   margin: 25px;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 10px;
 }
 .pos-container {
+  align-content: center;
   padding: 20px;
-  background-color: #534669;
+  background-color: #766297;
+  border-radius: 12px;
 }
