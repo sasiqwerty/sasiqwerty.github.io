@@ -7,7 +7,7 @@ body {
 .pos-container {
   align-content: center;
   padding: 20px;
-  background-color: #766297;
+  background-color: hsl(189, 71%, 15%);
   border-radius: 12px;
 }
 .pos-img {
