@@ -20,7 +20,6 @@ body {
   padding: 13px;
 }
 .pos-container {
-  padding: 1em;
   background-color: #dbdbdb;
 }
 @media (max-width: 684px) {
