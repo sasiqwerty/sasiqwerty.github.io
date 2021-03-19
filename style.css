@@ -11,9 +11,19 @@ body {
   padding: 20px;
   background-color: hsl(189, 71%, 15%);
   border-radius: 12px;
+
+
 }
+
 .pos-img {
   padding: 2px;
+  width: 30vw;
+
+}
+.pos-img1 {
+  padding: 2px;
+  width: 75vw;
+
 }
 a {
   text-decoration: none;
