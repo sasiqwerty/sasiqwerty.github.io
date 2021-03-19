@@ -2,12 +2,23 @@
   padding: 0;
   margin: 0;
 }
-body ul {
+
+.test-flex {
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   list-style-type: none;
-  margin: 25px;
 }
-body li {
-  padding: 2px;
+.test-flex1 {
+  margin: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.test-flex1 li {
+  padding: 0.4em;
+  list-style-type: none;
 }
 .scss-var {
   font-family: Fira Code, monospace;
@@ -16,4 +27,23 @@ body li {
 }
 .scss-var li {
   padding: 0.1em;
+}
+@media (min-width: 500px) {
+  body {
+    margin: 2rem;
+  }
+  body li {
+    list-style-type: none;
+  }
+  .test-flex1 {
+    margin: 1em;
+    padding: 2em 1em;
+  }
+  .test-flex1 li {
+    padding: 1em 0.5em;
+    list-style-type: none;
+  }
+  body{
+
+  }
 }
