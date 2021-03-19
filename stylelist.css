@@ -1,0 +1,7 @@
+body ul {
+  list-style-type: none;
+  margin: 25px;
+}
+body li {
+  padding: 2px;
+}
