@@ -12,23 +12,6 @@ body {
   background-color: hsl(189, 71%, 15%);
   border-radius: 12px;
 }
-.blob-container {
-  padding: 1em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: rgb(115, 214, 181);
-  border-radius: 1.5em;
-}
-.blob-container li {
-  padding: 0.5em;
-  list-style-type: none;
-  font-size: 1em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-self: flex-start;
-}
 
 a {
   text-decoration: none;
