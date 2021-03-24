@@ -1,32 +1,39 @@
 * {
   padding: 0;
   margin: 0;
+  /* outline: 2px solid black; */
 }
 
 .test-flex {
-  margin-top: 2em;
+  margin-top: 1em;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
   list-style-type: none;
 }
-.test-flex1 {
-  margin: 1em;
+.main-container {
+  background: rgb(194, 194, 194);
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: row;
+  padding: 1em;
 }
-.test-flex1 li {
+.test-flex li {
   padding: 0.4em;
   list-style-type: none;
+}
+.pos {
+  display: flex;
+  justify-content: center;
 }
 .scss-var {
   font-family: Fira Code, monospace;
   font-size: 1.2em;
-  text-align: center;
+  text-align: left;
+  padding: 1em;
+  background: rgb(179, 179, 179);
 }
 .scss-var li {
-  padding: 0.1em;
+  padding: 0.5em;
 }
 @media (min-width: 500px) {
   body {
@@ -42,7 +49,5 @@
   .test-flex1 li {
     padding: 1em 0.5em;
     list-style-type: none;
-  }
-  body {
   }
 }
