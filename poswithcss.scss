@@ -28,6 +28,24 @@ body {
   background: $bg-color;
   font-size: 1.2em;
   font-family: Bitter;
+  .pos-heading {
+    text-align: center;
+    #name1 {
+      background: $pos-color;
+    }
+  }
+  .pos-parts {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 800;
+    text-align: center;
+    display: inline-block;
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    box-shadow: 2px 2px 5px $boxShadow-color;
+  }
+
   .pos-list {
     display: flex;
     flex-direction: row;
@@ -35,19 +53,6 @@ body {
     justify-content: center;
     list-style-type: none;
 
-    .pos-parts {
-      font-size: 1.2em;
-      font-weight: 800;
-      text-align: center;
-      display: inline-block;
-      margin: 0.5em;
-      padding: 0.5em 1em;
-      border-radius: 1em;
-      box-shadow: 2px 2px 5px $boxShadow-color;
-    }
-    #name1 {
-      background: $pos-color;
-    }
     #name2 {
       background: $noun-color;
     }

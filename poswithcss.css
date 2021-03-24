@@ -9,6 +9,27 @@ body {
   font-family: Bitter;
 }
 
+body .pos-heading {
+  text-align: center;
+}
+
+body .pos-heading #name1 {
+  background: #fef5f5;
+}
+
+body .pos-parts {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 800;
+  text-align: center;
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
 body .pos-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -23,22 +44,6 @@ body .pos-list {
       -ms-flex-pack: center;
           justify-content: center;
   list-style-type: none;
-}
-
-body .pos-list .pos-parts {
-  font-size: 1.2em;
-  font-weight: 800;
-  text-align: center;
-  display: inline-block;
-  margin: 0.5em;
-  padding: 0.5em 1em;
-  border-radius: 1em;
-  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
-          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
-}
-
-body .pos-list #name1 {
-  background: #fef5f5;
 }
 
 body .pos-list #name2 {
