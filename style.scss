@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: rgb(216, 235, 210);
+  font-family: Bitter;
+  font-size: 1.3em;
+  padding: 1em;
+  margin: 1em;
+
+  .button-test {
+    display: inline-block;
+    background: rgb(100, 168, 170);
+    border-radius: 0.5em;
+    padding: 1em 0.5em;
+    margin: 1em 0.5em;
+    color: rgb(18, 18, 18);
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  }
+  .button-test:hover {
+    box-shadow: 0 0.25em rgb(6, 118, 146);
+    border-radius: 1em;
+
+    transition: 250ms;
+  }
+}
