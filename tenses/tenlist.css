@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #3a3a3a;
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 auto;
+          flex: 2 1 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Bitter, serif;
+  font-size: 1.3em;
+  padding: 1em;
+  margin: 1em;
+}
+
+.main-container .tense-div {
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+.main-container .tense-div .tense-list {
+  padding: 0.5em;
+  list-style-type: none;
+  background: #ace0d1;
+  border-radius: 0.5em;
+}
+
+.main-container .tense-div .tense-list > ul {
+  padding: 1em;
+  margin: 1em;
+}
+
+.main-container .tense-div .tense-list > li {
+  background: #76bdbd;
+  margin: 1.25em;
+  padding: 1em;
+  border-radius: 1em;
+  text-align: center;
+  -webkit-box-shadow: 0.05em 0.05em 0.5em rgba(0, 0, 0, 0.25);
+          box-shadow: 0.05em 0.05em 0.5em rgba(0, 0, 0, 0.25);
+}
+
+.main-container .tense-div .tense-list > li > a {
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+
+.main-container .tense-div .tense-list > li > a:hover {
+  font-weight: 700;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+}
+/*# sourceMappingURL=tenlist.css.map */
