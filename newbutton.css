@@ -19,18 +19,23 @@
   display: inline-block;
   border-style: solid;
   border-color: black;
-  border-width: 0.03em 0.03em 0 0.03em;
+  border-width: 0.03em;
   border-radius: 0.2em;
   color: #000;
   background: #29d3f1;
-  -webkit-box-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.1);
-          box-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.3);
+          box-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.3);
 }
 
 .cont1:hover {
-  -webkit-box-shadow: 0 0.2em black;
-          box-shadow: 0 0.2em black;
-  -webkit-transition: 150ms;
-  transition: 150ms;
+  -webkit-box-shadow: 0 -0.1em black;
+          box-shadow: 0 -0.1em black;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+}
+
+.cont1:hover .link {
+  -webkit-box-shadow: 0.05em -0.05em 0.1em rgba(0, 0, 0, 0.1);
+          box-shadow: 0.05em -0.05em 0.1em rgba(0, 0, 0, 0.1);
 }
 /*# sourceMappingURL=newbutton.css.map */

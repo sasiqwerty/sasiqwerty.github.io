@@ -17,14 +17,17 @@
     display: inline-block;
     border-style: solid;
     border-color: black;
-    border-width: 0.03em 0.03em 0 0.03em;
+    border-width: 0.03em;
     border-radius: 0.2em;
     color: #000;
     background: rgb(41, 211, 241);
-    box-shadow:0.05em 0.05em 0.1em rgba(0, 0, 0, 0.1);
+    box-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.3);
   }
 }
 .cont1:hover {
-  box-shadow: 0 0.2em rgb(0, 0, 0);
-  transition: 150ms;
+  box-shadow: 0 -0.1em rgb(0, 0, 0);
+  transition: 250ms;
+  .link{
+    box-shadow: 0.05em -0.05em 0.1em rgba(0, 0, 0, 0.1);
+  }
 }
