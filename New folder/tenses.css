@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Bitter;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #ca9e9e;
+  font-size: 1.5em;
+  padding: 1em;
+  margin: 1em;
+}
+
+.tense-name {
+  padding: 0.5em;
+  margin: 0.5em;
+  background: #48c0b0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border-radius: 0.5em;
+}
+
+.tense-name > a {
+  color: black;
+  text-decoration: none;
+}
+
+.past-tense {
+  border-radius: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #a4606d;
+  padding: 1em;
+  margin: 1em;
+}
+
+.present-tense {
+  border-radius: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #349d69;
+  padding: 1em;
+  margin: 1em;
+}
+
+.future-tense {
+  border-radius: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #34579d;
+  padding: 1em;
+  margin: 1em;
+}
+/*# sourceMappingURL=tenses.css.map */
