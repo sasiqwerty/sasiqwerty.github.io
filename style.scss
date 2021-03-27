@@ -22,8 +22,6 @@ body {
   }
   .button-test:hover {
     box-shadow: 0 0.25em rgb(6, 118, 146);
-    border-radius: 1em;
-
-    transition: 250ms;
+    transition: 100ms;
   }
 }

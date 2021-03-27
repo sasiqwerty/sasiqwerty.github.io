@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cont1 {
+  margin: 1em;
+  padding: 0;
+  display: inline-block;
+  border-radius: 0.2em;
+  font-size: 5rem;
+  -webkit-box-shadow: 0 0.1em #000;
+          box-shadow: 0 0.1em #000;
+}
+
+.cont1 .link {
+  text-decoration: none;
+  padding: 0.2em 0.8em;
+  display: inline-block;
+  border-style: solid;
+  border-color: black;
+  border-width: 0.03em 0.03em 0 0.03em;
+  border-radius: 0.2em;
+  color: #000;
+  background: #29d3f1;
+  -webkit-box-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.1);
+          box-shadow: 0.05em 0.05em 0.1em rgba(0, 0, 0, 0.1);
+}
+
+.cont1:hover {
+  -webkit-box-shadow: 0 0.2em black;
+          box-shadow: 0 0.2em black;
+  -webkit-transition: 150ms;
+  transition: 150ms;
+}
+/*# sourceMappingURL=newbutton.css.map */
