@@ -24,6 +24,14 @@ $boxShadow-color: rgba(0, 0, 0, 0.25);
   margin: 0;
   padding: 0;
 }
+.home-link {
+  font-size: 1.5em;
+  background: #c3dbe0;
+  display: inline-block;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 1.5em;
+}
 body {
   background: $bg-color;
   font-size: 1.2em;

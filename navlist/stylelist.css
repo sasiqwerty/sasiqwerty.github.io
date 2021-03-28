@@ -3,7 +3,14 @@
   margin: 0;
   /* outline: 2px solid black; */
 }
-
+.home-link {
+  font-size: 1.5em;
+  background: #c3dbe0;
+  display: inline-block;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 1.5em;
+}
 .test-flex {
   margin-top: 1em;
   display: flex;
