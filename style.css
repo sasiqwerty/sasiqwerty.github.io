@@ -13,6 +13,18 @@
 }
 
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background: #d8ebd2;
   font-family: Bitter;
   font-size: 1.3em;
@@ -23,7 +35,7 @@ body {
 body .button-test {
   display: inline-block;
   background: #64a8aa;
-  border-radius: 0.5em;
+  border-radius: 1em;
   padding: 1em 0.5em;
   margin: 1em 0.5em;
   color: #121212;
@@ -36,7 +48,7 @@ body .button-test {
 body .button-test:hover {
   -webkit-box-shadow: 0 0.25em #067692;
           box-shadow: 0 0.25em #067692;
-  -webkit-transition: 100ms;
-  transition: 100ms;
+  -webkit-transition: 150ms;
+  transition: 150ms;
 }
 /*# sourceMappingURL=style.css.map */
