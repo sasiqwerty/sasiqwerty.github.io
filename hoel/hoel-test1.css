@@ -1,0 +1,13 @@
+.hoel-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+#hoel-image1 {
+  height: 100%;
+}
+/*# sourceMappingURL=hoel-test1.css.map */
