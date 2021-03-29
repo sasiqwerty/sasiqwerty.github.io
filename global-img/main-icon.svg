@@ -1,0 +1,8 @@
+<svg width="24" height="19" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 1">
+<path id="Vector 1" d="M1 1V14H8" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Union" fill-rule="evenodd" clip-rule="evenodd" d="M3.5 4C3.22386 4 3 4.22386 3 4.5V11.25V17.5345C3 17.8106 3.22386 18.0345 3.5 18.0345H13C13.2761 18.0345 13.5 17.8106 13.5 17.5345C13.5 17.2583 13.2761 17.0345 13 17.0345H4V11.75H13C13.2761 11.75 13.5 11.5261 13.5 11.25C13.5 10.9739 13.2761 10.75 13 10.75H4V5H13C13.2761 5 13.5 4.77614 13.5 4.5C13.5 4.22386 13.2761 4 13 4H3.5Z" fill="black"/>
+<path id="Vector 4" d="M5 16L8.15152 7L11.303 16M13.6667 16V12.1429M13.6667 12.1429V8.28571C14.7172 8.5 16.8182 9.18571 16.8182 10.2143C16.8182 11.2429 14.7172 11.9286 13.6667 12.1429ZM13.6667 12.1429L18 16" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 5" d="M20 16V9L23 16L22.8759 9" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
