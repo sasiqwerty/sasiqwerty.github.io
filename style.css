@@ -12,6 +12,16 @@
   border-radius: 1.5em;
 }
 
+.image-test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1em;
+}
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -10,6 +10,12 @@
   margin: 1em;
   border-radius: 1.5em;
 }
+.image-test {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
 body {
   display: flex;
   flex-direction: row;
