@@ -10,9 +10,6 @@
 }
 
 .period {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   font-family: Bitter, serif;
   font-weight: 500;
   font-size: 1.15rem;
