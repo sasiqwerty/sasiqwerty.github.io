@@ -39,8 +39,8 @@
 .period li:hover {
   -webkit-filter: saturate(190%);
           filter: saturate(190%);
-  -webkit-filter: hue-rotate(-50deg);
-          filter: hue-rotate(-50deg);
+  -webkit-filter: hue-rotate(-30deg);
+          filter: hue-rotate(-30deg);
   -webkit-box-shadow: 0.2em 0.2em 0.5em rgba(0, 0, 0, 0.25);
           box-shadow: 0.2em 0.2em 0.5em rgba(0, 0, 0, 0.25);
   -webkit-transition: 250ms ease;
