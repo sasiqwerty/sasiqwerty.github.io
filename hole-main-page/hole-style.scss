@@ -2,33 +2,37 @@
   margin: 0;
   padding: 0;
 }
-.period-container {
-  padding: 0.5em;
-  margin: 0.5em;
-  background-color: rgba(238, 233, 227, 0.445);
-}
 .period {
   font-family: Bitter, serif;
   font-weight: 500;
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   list-style-type: none;
+  justify-content: center;
+  li {
+    padding: 0.6em 0.4em;
+    margin: 0.35em;
+    background: hsl(185, 60%, 65%);
+    border-radius: 0.9em;
+    box-shadow: 0.1em 0.1em 0.5em rgba(0, 0, 0, 0.15);
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
 }
-.period > li {
-  padding: 0.6em 0.5em;
-  margin: 0.35em;
-  background: rgb(194, 218, 193);
-  border-radius: 0.75em;
-  box-shadow: 0.05em 0.05em 0.5em rgba(0, 0, 0, 0.2);
+.period {
+  li:hover {
+    filter: saturate(190%);
+    filter: hue-rotate(-50deg);
+    box-shadow: 0.2em 0.2em 0.5em rgba(0, 0, 0, 0.25);
+    transition: 250ms ease;
+  }
 }
-.period > li > a {
-  text-decoration: none;
-  color: black;
-  text-align: center;
-}
-#heading-period {
+.heading-period {
   font-size: 1.5rem;
   font-weight: 700;
 }
