@@ -40,6 +40,9 @@ padding: 0.5em;
 font-size: 1.5rem;
 border-radius: 0.5em;
        }
+       textarea{
+         width: fit-content;
+       }
     </style>
 </head>
 <body>
@@ -52,12 +55,19 @@ border-radius: 0.5em;
       const link = document.body.querySelector('#insert');
       link.href=obj.value;
     }
+    function reset() {
+    var ta = document.getElementById('#dencoder');
+    if (!ta.value || ta.value != ta.defaultValue) {
+        ta.value = ta.defaultValue;
+    }
+}
     </script>
        
     <form onsubmit="return false;">   
-    <textarea cols="40" rows="4" wrap="hard" id="dencoder"></textarea>
+    <textarea cols="45" rows="5" wrap="hard" id="dencoder"></textarea>
     <div>
     <input class="button" type="button" onclick="encode()" value="Read Aloud">
+    <input  class="button" type="button" value="Reset" onclick="reset();">
     </div>
     <div class="text"><a href="#" id="insert">Click here to read it</a></div>
     </body>
