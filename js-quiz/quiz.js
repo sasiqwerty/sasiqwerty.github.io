@@ -108,7 +108,7 @@ let quiz = {
         quiz.hQn.innerHTML = `You have answered ${quiz.score} of ${quiz.data.length} correctly.`;
         quiz.hAns.innerHTML = "";
       }
-    }, 1000);
+    }, 250);
   },
 };
 window.addEventListener("load", quiz.init);
