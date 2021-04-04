@@ -22,49 +22,30 @@
     href="/favicon_io/favicon-16x16.png"
   />
     <title>Document</title>
+    <style>
+      body{
+        display: flex;
+        background-color: bisque;
+       }
+    </style>
 </head>
 <body>
-    
-<style type="text/css">
-    <!--
-    body {background: white; color: black;}
-    form {margin: 0;}
-    h1 {font-family: Arial, sans-serif; line-height: 0.85em; border-bottom: 2px solid;
-      margin-bottom: 0.33em; padding-bottom: 0;}
-    
-    textarea {background: #EEF;}
-    
-    #footer {border-top: 1px solid #000; color: #999; font: italic 75% sans-serif;}
-    #footer p {margin: 0 0 1em 0;}
-    #footer img {float: right; margin: 0 0 0.5em 2em;}
-    -->
-    </style>
-    <script type="text/javascript">
+     <script type="text/javascript">
     function encode() {
         var obj = document.getElementById('dencoder');
         var unencoded = obj.value;
-        obj.value = "https://www.google.com/readit?url="+ encodeURIComponent(unencoded).replace(/'/g,"%27").replace(/"/g,"%22");	
-        document.write(`<a href="${obj.value}">Click Here to listen</a>`)
-
-    }
-    function decode() {
-        var obj = document.getElementById('dencoder');
-        var encoded = obj.value;
-        obj.value = decodeURIComponent(encoded.replace(/\+/g,  " "));
+        obj.value = "https://www.google.com/readit?url="+ encodeURIComponent(unencoded).replace(/'/g,"%27").replace(/"/g,"%22");
+        // document.write(`<a href="${obj.value}">Click Here to listen</a>`)
+      const link = document.body.querySelector('#insert');
+      link.href=obj.value;
     }
     </script>
-    <body>
-    
-    
-    <form onsubmit="return false;">
-    <h1>URL Decoder/Encoder</h1>
-    
-    <textarea cols="100" rows="20" id="dencoder"></textarea>
+       
+    <form onsubmit="return false;">   
+    <textarea cols="40" rows="4" wrap="hard" id="dencoder" style="border-radius: 1em;margin-left: 10%;"></textarea>
     <div>
-    <input type="button" onclick="decode()" value="Decode">
-    <input type="button" onclick="encode()" value="Encode">
+    <input style='font-size: 2rem;font-family: serif;border-radius: 1em;padding: 0.5em;margin-left: 25%;margin-right: 25%;' type="button" onclick="encode()" value="Read Aloud">
     </div>
-    
-</body>
-
+    <div style="padding: 1em;font-size: 1.5rem;text-align: center;" class="text"><a href="#" id="insert">Click here to read it</a></div>
+    </body>
 </html>
