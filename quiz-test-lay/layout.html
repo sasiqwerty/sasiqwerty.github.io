@@ -11,23 +11,40 @@
     <section class="quiz-container">
       <ol class="question-container container">
         <li class="question para">
-          My mother_____ delicious meal for us everyday.
+          <p id="data1">Your Question Appears here</p>
         </li>
       </ol>
       <ol class="answer-container container">
-        <li class="para answer" id="answer1">
-          <p>cooked</p>
+        <li class="para answer" id="answer1-li">
+          <p id="data2">Option 1</p>
         </li>
-        <li class="para answer" id="answer2">
-          <p>cooks</p>
+        <li class="para answer" id="answer2-li">
+          <p id="data3">Option 2</p>
         </li>
-        <li class="para answer" id="answer3">
-          <p>had cooked</p>
+        <li class="para answer" id="answer3-li">
+          <p id="data4">Option 3</p>
         </li>
-        <li class="para answer" id="answer4">
-          <p>has cook</p>
+        <li class="para answer" id="answer4-li">
+          <p id="data5">Option 4</p>
         </li>
       </ol>
     </section>
+    <script>
+      const d1 = document.querySelector("#data1");
+      const d2 = document.querySelector("#data2");
+      const d3 = document.querySelector("#data3");
+      const d4 = document.querySelector("#data4");
+      const d5 = document.querySelector("#data5");
+      d1.textContent = "this is the question (injected with code)";
+      d2.textContent = "this is option 1 (injected with code)";
+      d3.textContent = "this is option 2 (injected with code)";
+      d4.textContent = "this is option 3 (injected with code)";
+      d5.textContent = "this is option 4 (injected with code)";
+
+      // const data = document.querySelectorAll(".para");
+      // data.forEach((element) => {
+      //   element.textContent = "q";
+      // });
+    </script>
   </body>
 </html>

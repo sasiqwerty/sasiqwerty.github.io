@@ -23,16 +23,22 @@
     margin: 0.5em;
     padding: 0.5em;
     text-align: center;
+    border-radius: 0.5em;
+    box-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.1);
+  }
+  .answer:hover {
+    filter: saturate(120%);
+    filter: hue-rotate(50deg);
+    box-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.5);
+    transition-property: all;
+    transition:ease-in-out 500ms;
     border-radius: 1em;
   }
-  .para:hover {
-    filter: saturate(200%);
-    box-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.25);
-  }
   .answer {
-    background-color: bisque;
+    background-color: rgb(96, 194, 197);
   }
   .question {
     background-color: hsl(165, 54%, 80%);
+    font-weight: 700;
   }
 }
