@@ -26,6 +26,19 @@
       body{
         display: flex;
         background-color: bisque;
+        flex-direction: row;
+        justify-content: left;
+        align-items: left;
+       }
+       .text{
+        padding: 1em;
+        font-size: 1.5rem;
+        text-align: center;
+       }
+       .button{
+padding: 0.5em;
+font-size: 1.5rem;
+border-radius: 0.5em;
        }
     </style>
 </head>
@@ -42,10 +55,10 @@
     </script>
        
     <form onsubmit="return false;">   
-    <textarea cols="40" rows="4" wrap="hard" id="dencoder" style="border-radius: 1em;margin-left: 10%;"></textarea>
+    <textarea cols="40" rows="4" wrap="hard" id="dencoder"></textarea>
     <div>
-    <input style='font-size: 2rem;font-family: serif;border-radius: 1em;padding: 0.5em;margin-left: 25%;margin-right: 25%;' type="button" onclick="encode()" value="Read Aloud">
+    <input class="button" type="button" onclick="encode()" value="Read Aloud">
     </div>
-    <div style="padding: 1em;font-size: 1.5rem;text-align: center;" class="text"><a href="#" id="insert">Click here to read it</a></div>
+    <div class="text"><a href="#" id="insert">Click here to read it</a></div>
     </body>
 </html>
