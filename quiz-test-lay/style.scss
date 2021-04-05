@@ -2,43 +2,87 @@
   padding: 0;
   margin: 0;
 }
-.quiz-container {
-  background: rgb(230, 236, 232);
-  margin: 0.2em;
-  padding: 0.2em;
-  font-size: 1.5rem;
-  justify-content: left;
-  display: inline-block;
+
+body {
+  background: rgb(112, 175, 133);
+  font-family: Bitter;
+  margin: 1em;
+  background-color: aliceblue;
 }
 
-.container {
-  margin: 0.5em;
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 0.5em;
-  list-style-type: none;
-  font: 1em Bitter;
+.quiz-container {
+  position: relative;
+  display: flex;
   justify-content: center;
-  .para {
-    margin: 0.5em;
-    padding: 0.5em;
-    text-align: center;
+  align-items: center;
+  text-align: center;
+  display: block;
+
+  .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    list-style-type: none;
+    font-size: 1.25rem;
+    justify-content: center;
+
+    .para {
+      margin: 0.25em;
+      padding: 0.4em;
+      text-align: center;
+      border-radius: 0.3em;
+      box-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.1);
+    }
+
+    .answer:hover {
+      filter: saturate(120%);
+      filter: hue-rotate(50deg);
+      box-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.5);
+      transition-property: all;
+      transition: ease-in-out 500ms;
+      border-radius: 1em;
+    }
+
+    .answer {
+      background-color: rgb(96, 194, 197);
+    }
+
+    .question {
+      background-color: hsl(165, 54%, 80%);
+      font-weight: 700;
+    }
+  }
+
+  .results {
+    font-size: 1.1rem;
     border-radius: 0.5em;
-    box-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.1);
-  }
-  .answer:hover {
-    filter: saturate(120%);
-    filter: hue-rotate(50deg);
-    box-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.5);
-    transition-property: all;
-    transition:ease-in-out 500ms;
-    border-radius: 1em;
-  }
-  .answer {
-    background-color: rgb(96, 194, 197);
-  }
-  .question {
-    background-color: hsl(165, 54%, 80%);
-    font-weight: 700;
+    margin: 2em 0;
+
+    .rw {
+      li {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        background-color: rgb(102, 204, 170);
+        border-radius: 0.5em;
+        margin: 0.2em;
+
+        p {
+          padding: 0.5em;
+          display: inline-block;
+          align-self: center;
+          text-decoration: none;
+        }
+
+        img {
+          display: inline-block;
+          padding: 0.4em;
+          margin-left: auto;
+          margin-right: auto;
+          width: 12%;
+          height: auto;
+        }
+      }
+    }
   }
 }
