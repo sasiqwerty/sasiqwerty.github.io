@@ -9,6 +9,19 @@ body {
   margin: 1em;
   background-color: aliceblue;
 }
+.logic {
+  background-color: rgb(179, 192, 192);
+  font-size: 1.2rem;
+  border-radius: 0.2em;
+  display: flex;
+  ol {
+    list-style-position: inside;
+    li {
+      padding: 0.2em;
+      text-align:start;
+    }
+  }
+}
 
 .quiz-container {
   position: relative;

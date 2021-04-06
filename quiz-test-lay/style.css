@@ -10,6 +10,24 @@ body {
   background-color: aliceblue;
 }
 
+.logic {
+  background-color: #b3c0c0;
+  font-size: 1.2rem;
+  border-radius: 0.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logic ol {
+  list-style-position: inside;
+}
+
+.logic ol li {
+  padding: 0.2em;
+  text-align: start;
+}
+
 .quiz-container {
   position: relative;
   display: -webkit-box;
