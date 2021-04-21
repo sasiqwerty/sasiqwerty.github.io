@@ -75,7 +75,6 @@ body {
   transition-property: all;
   -webkit-transition: ease-in-out 500ms;
   transition: ease-in-out 500ms;
-  border-radius: 1em;
 }
 
 .quiz-container .container .answer {
@@ -93,6 +92,17 @@ body {
   margin: 2em 0;
 }
 
+.quiz-container .results .rw {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: inline-block;
+}
+
 .quiz-container .results .rw li {
   list-style-type: none;
   display: -webkit-box;
@@ -102,12 +112,15 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
   background-color: #66ccaa;
   border-radius: 0.5em;
   margin: 0.2em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .quiz-container .results .rw li p {
@@ -121,10 +134,9 @@ body {
 
 .quiz-container .results .rw li img {
   display: inline-block;
-  padding: 0.4em;
-  margin-left: auto;
-  margin-right: auto;
-  width: 12%;
-  height: auto;
+  padding: 0.4rem;
+  height: 5.5vh;
+  width: auto;
+  margin: 0.4rem;
 }
 /*# sourceMappingURL=style.css.map */
